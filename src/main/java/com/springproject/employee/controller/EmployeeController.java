@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.*;
 
-@CrossOrigin(origins = "http://localhost:3000")
-//@CrossOrigin(origins = "https://ems-f01.azurewebsites.net")
+//@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://employee-management-system-001.herokuapp.com")
 @RestController
 @RequestMapping("/api/v1/")
 public class EmployeeController {
